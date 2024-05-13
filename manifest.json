@@ -1,0 +1,21 @@
+{
+    "name": "Bhagvad Gita",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Some Life Changing and Motivational Philosophical Quotes from Bhagvad Gita.",
+    "author": "Siddharth Gautam",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "bhagavad-gita.png",
+        "default_title": "Life is a Journey"
+    },
+    "host_permissions": [
+        "https://newsapi.org/v2/*"
+    ],
+    "icons": {
+        "128": "bhagavad-gita.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
