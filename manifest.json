@@ -1,13 +1,13 @@
 {
-    "name": "Bhagvad Gita",
+    "name": "Enews",
     "version": "0.0.1",
     "manifest_version": 3,
-    "description": "Some Life Changing and Motivational Philosophical Quotes from Bhagvad Gita.",
+    "description": "Every news around the globe on your Single click in your PC.",
     "author": "Siddharth Gautam",
     "action": {
         "default_popup": "index.html",
         "default_icon": "bhagavad-gita.png",
-        "default_title": "Life is a Journey"
+        "default_title": "Breaking news on Hot Topics."
     },
     "host_permissions": [
         "https://newsapi.org/v2/*"
@@ -16,6 +16,6 @@
         "128": "bhagavad-gita.png"
     },
     "permissions": [
-        "activeTab"
+        "activeTab", "<all_urls>"
     ]
 }
